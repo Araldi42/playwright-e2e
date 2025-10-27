@@ -1,9 +1,12 @@
 import { test } from '@playwright/test';
 import { ai } from '@zerostep/playwright';
 
-test('zerostep example', async ({ page }) => {
-  await page.goto('https://demo.automationtesting.in/Register.html');
+test('Verifica página inicial do Merx.tech com AI', async ({ page }) => {
+  await page.goto('https://merx.tech/');
 
   const aiArgs = { page, test };
-  await ai('enter values in full name field', aiArgs);
+
+  await ai('verify that the homepage loads correctly', aiArgs);
+  await ai('click on the IMPRENSA button', aiArgs);
+  await ai('check that the about section appears', aiArgs);
 });
