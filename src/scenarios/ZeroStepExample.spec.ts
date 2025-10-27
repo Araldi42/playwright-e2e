@@ -8,5 +8,5 @@ test('Verifica página inicial do Merx.tech com AI', async ({ page }) => {
 
   await ai('verify that the homepage loads correctly', aiArgs);
   await ai('click on the IMPRENSA button', aiArgs);
-  await ai('check that the about section appears', aiArgs);
+  await ai('check that the ENTRE EM CONTATO section appears', aiArgs);
 });
