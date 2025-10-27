@@ -1,0 +1,280 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - navigation [ref=e7]:
+          - link "MerX" [ref=e8] [cursor=pointer]:
+            - /url: index.html
+            - img "MerX" [ref=e9]
+          - list [ref=e11]:
+            - listitem [ref=e12]:
+              - link "Home" [ref=e13] [cursor=pointer]:
+                - /url: index.html
+            - listitem [ref=e14]:
+              - link "Para o Seu Negócio" [ref=e15] [cursor=pointer]:
+                - /url: index.html
+              - text:     
+            - listitem [ref=e16]:
+              - link "Imprensa" [ref=e17] [cursor=pointer]:
+                - /url: imprensa.html
+            - listitem [ref=e18]:
+              - link "Podcast" [ref=e19] [cursor=pointer]:
+                - /url: https://open.spotify.com/show/6aVt29uKqL9tVlLNUX8kQl
+            - listitem [ref=e20]:
+              - link "Trabalhe Conosco" [ref=e21] [cursor=pointer]:
+                - /url: mailto:rh@merx.tech
+            - listitem [ref=e22]:
+              - link "Entre em Contato" [ref=e23] [cursor=pointer]:
+                - /url: https://wa.me/5563999885601
+      - main [ref=e24]:
+        - list [ref=e29]:
+          - listitem [ref=e30]:
+            - img [ref=e35]
+            - generic [ref=e39]: Agro. Tecnologia. Trading.
+            - generic [ref=e41]: MERX
+            - generic [ref=e43]: Conectando o Agro ao Mercado Financeiro e a Economia Verde.
+        - generic [ref=e45]:
+          - generic [ref=e48]:
+            - generic [ref=e51]:
+              - heading "PARA O SEU NEGÓCIO" [level=3] [ref=e52]
+              - heading "SOLUÇÕES" [level=2] [ref=e53]
+              - generic [ref=e54]: Conectando o agro ao mercado financeiro e a economia verde.
+              - img "images description" [ref=e56]
+            - generic [ref=e59]:
+              - generic [ref=e61]: "&"
+              - heading "ECONOMIA VERDE" [level=4] [ref=e62]:
+                - link "ECONOMIA VERDE" [ref=e63] [cursor=pointer]:
+                  - /url: "#"
+              - paragraph [ref=e65]: Nosso compromisso com a sustentabilidade se reflete em nossas certificações socioambientais, promovendo a economia verde no agronegócio.
+              - link "SAIBA MAIS" [ref=e67] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e70]:
+              - generic [ref=e72]: "&"
+              - heading "EXPANSÃO DE MERCADO" [level=4] [ref=e73]:
+                - link "EXPANSÃO DE MERCADO" [ref=e74] [cursor=pointer]:
+                  - /url: "#"
+              - paragraph [ref=e76]: Oferecemos suporte completo para exportações, incluindo assessoria em documentação, logística e certificações.
+              - link "SAIBA MAIS" [ref=e78] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e81]:
+              - generic [ref=e83]: "&"
+              - heading "GESTÃO AGRO" [level=4] [ref=e84]:
+                - link "GESTÃO AGRO" [ref=e85] [cursor=pointer]:
+                  - /url: "#"
+              - paragraph [ref=e87]: Nossa plataforma white label oferece uma solução completa para os participantes do agronegócio, permitindo a gestão eficiente de commodities, desde a originação à rastreabilidade.
+              - link "SAIBA MAIS" [ref=e89] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e92]:
+              - generic [ref=e94]: "&"
+              - heading "TRADING - SIGMA GREEN" [level=4] [ref=e95]:
+                - link "TRADING - SIGMA GREEN" [ref=e96] [cursor=pointer]:
+                  - /url: "#"
+              - paragraph [ref=e98]: Conectamos compradores e vendedores globais, permitindo que todos os players do agronegócio participem do processo de exportação.
+              - link "SAIBA MAIS" [ref=e100] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=e103]:
+              - generic [ref=e105]: "&"
+              - heading "SERVIÇOS FINANCEIROS" [level=4] [ref=e106]:
+                - link "SERVIÇOS FINANCEIROS" [ref=e107] [cursor=pointer]:
+                  - /url: "#"
+              - paragraph [ref=e109]: Nossos produtos bancários oferecem soluções integradas para o agronegócio, fortalecendo o relacionamento com produtores e oferecendo produtos financeiros.
+              - link "SAIBA MAIS" [ref=e111] [cursor=pointer]:
+                - /url: "#"
+          - generic [ref=e114]:
+            - generic [ref=e116]:
+              - img "Ícone de transações MerX" [ref=e118]
+              - heading "102.517" [level=3] [ref=e119]
+              - generic [ref=e120]: Transações
+            - generic [ref=e122]:
+              - img "Ícone de volume MerX" [ref=e124]
+              - heading "69" [level=3] [ref=e125]
+              - generic [ref=e126]: Milhões volume em toneladas
+            - generic [ref=e128]:
+              - img "Ícone de produtores MerX" [ref=e130]
+              - heading "126.000" [level=3] [ref=e131]
+              - generic [ref=e132]: Produtores
+            - generic [ref=e134]:
+              - img "Ícone de valores MerX" [ref=e136]
+              - heading "84" [level=3] [ref=e137]
+              - generic [ref=e138]: Bilhões transacionados (BRL)
+            - generic [ref=e140]:
+              - img "Ícone de área MerX" [ref=e142]
+              - heading "31" [level=3] [ref=e143]
+              - generic [ref=e144]: Milhões de hectares
+            - generic [ref=e146]:
+              - img "Certificação RenovaBio MerX" [ref=e148]
+              - heading "200" [level=3] [ref=e149]
+              - generic [ref=e150]: Mil análises renovabio
+            - generic [ref=e152]:
+              - img "Certificação EUDR MerX" [ref=e154]
+              - heading "1" [level=3] [ref=e155]
+              - generic [ref=e156]: Milhão análises EUDR
+            - generic [ref=e158]:
+              - img "Certificação 2BSVS MerX" [ref=e160]
+              - heading "160" [level=3] [ref=e161]
+              - generic [ref=e162]: Mil análises 2BSVS
+          - generic [ref=e163]:
+            - generic [ref=e166]:
+              - heading "Soluções que geram impacto em toda jornada agro" [level=3] [ref=e167]
+              - generic [ref=e168]:
+                - generic [ref=e171]:
+                  - heading "CONEXÃO DE MERCADO" [level=4] [ref=e173]:
+                    - link "CONEXÃO DE MERCADO" [ref=e174] [cursor=pointer]:
+                      - /url: "#"
+                  - paragraph [ref=e177]: Unimos cerealistas e cooperativas a compradores globais através de transações transparentes, abrindo novos mercados e reduzindo a concentração do setor agrícola.
+                - generic [ref=e180]:
+                  - heading "FINANÇAS INTEGRADAS" [level=4] [ref=e182]:
+                    - link "FINANÇAS INTEGRADAS" [ref=e183] [cursor=pointer]:
+                      - /url: "#"
+                  - paragraph [ref=e186]: Disponibilizamos crédito ágil e personalizado para o agronegócio, estruturamos fundos sustentáveis e realizamos análises de risco baseadas em dados concretos do campo.
+                - generic [ref=e189]:
+                  - heading "TECNOLOGIA E INTELIGÊNCIA" [level=4] [ref=e191]:
+                    - link "TECNOLOGIA E INTELIGÊNCIA" [ref=e192] [cursor=pointer]:
+                      - /url: "#"
+                  - paragraph [ref=e195]: Nossa plataforma white-label com APIs integradas transforma dados em valor real, garantindo rastreabilidade completa e fundamentando decisões estratégicas em toda cadeia produtiva.
+                - generic [ref=e198]:
+                  - heading "CRESCIMENTO COMPARTILHADO" [level=4] [ref=e200]:
+                    - link "CRESCIMENTO COMPARTILHADO" [ref=e201] [cursor=pointer]:
+                      - /url: "#"
+                  - paragraph [ref=e204]: Geramos novas fontes de monetização para todos os participantes, oferecendo melhores condições comerciais aos produtores e garantias de conformidade aos importadores globais.
+                - generic [ref=e207]:
+                  - heading "TRADING CERTIFICADO" [level=4] [ref=e209]:
+                    - link "TRADING CERTIFICADO" [ref=e210] [cursor=pointer]:
+                      - /url: "#"
+                  - paragraph [ref=e213]: Facilitamos exportações com rastreabilidade e conformidade ambiental verificável, conectando produtores à economia verde e garantindo transparência que se converte em melhores margens.
+                - generic [ref=e216]:
+                  - heading "RASTREABILIDADE" [level=4] [ref=e218]:
+                    - link "RASTREABILIDADE" [ref=e219] [cursor=pointer]:
+                      - /url: "#"
+                  - paragraph [ref=e222]: Fornecemos inteligência de mercado que potencializa negócios através de análises precisas de market share e estratégias de posicionamento baseadas em dados reais.
+            - generic [ref=e225]:
+              - heading "Junte-se às empresas que já confiam em nossa tecnologia" [level=3] [ref=e226]
+              - generic [ref=e230]:
+                - img "Coopercitrus - Parceiro MerX" [ref=e233]
+                - img "Copasul - Parceiro MerX" [ref=e236]
+                - img "Fazendão - Parceiro MerX" [ref=e239]
+                - img "Inpasa - Parceiro MerX" [ref=e242]
+                - img "Mano Julio - Parceiro MerX" [ref=e245]
+                - img "Sipal - Parceiro MerX" [ref=e248]
+                - img "Agraria - Parceiro MerX" [ref=e251]
+                - img "Agrocangaia - Parceiro MerX" [ref=e254]
+                - img "Coopercitrus - Parceiro MerX" [ref=e257]
+                - img "Copasul - Parceiro MerX" [ref=e260]
+                - img "Fazendão - Parceiro MerX" [ref=e263]
+                - img "Inpasa - Parceiro MerX" [ref=e266]
+                - img "Mano Julio - Parceiro MerX" [ref=e269]
+                - img "Sipal - Parceiro MerX" [ref=e272]
+                - img "Agraria - Parceiro MerX" [ref=e275]
+                - img "Agrocangaia - Parceiro MerX" [ref=e278]
+                - img "Coopercitrus - Parceiro MerX" [ref=e281]
+                - img "Copasul - Parceiro MerX" [ref=e284]
+                - img "Fazendão - Parceiro MerX" [ref=e287]
+                - img "Inpasa - Parceiro MerX" [ref=e290]
+          - generic [ref=e297]:
+            - heading "Vem ser Merx" [level=3] [ref=e298]
+            - paragraph [ref=e299]: Somos movidos por inovação, tecnologia e impacto real no agronegócio. Se você busca desafios e quer fazer a diferença, seu lugar é aqui!
+            - heading "Pilares que nos guiam:" [level=4] [ref=e300]
+            - generic [ref=e301]:
+              - generic [ref=e302]:
+                - generic [ref=e303]:
+                  - generic [ref=e304]:
+                    - img "Ambiente livre para debate e ideias MerX" [ref=e305]
+                    - heading "Ambiente livre para debate e ideias" [level=5] [ref=e306]
+                  - paragraph [ref=e307]: Valorizamos a colaboração e o pensamento crítico. As melhores ideias nascem do diálogo.
+                - generic [ref=e308]:
+                  - generic [ref=e309]:
+                    - img "Qualidade MerX" [ref=e310]
+                    - heading "Qualidade" [level=5] [ref=e311]
+                  - paragraph [ref=e312]: Cada detalhe importa. Trabalhamos com excelência para entregar soluções robustas e eficientes.
+              - generic [ref=e313]:
+                - generic [ref=e314]:
+                  - generic [ref=e315]:
+                    - img "Foco na solução MerX" [ref=e316]
+                    - heading "Foco na solução" [level=5] [ref=e317]
+                  - paragraph [ref=e318]: Desafios existem para serem superados. Aqui, enxergamos oportunidades e entregamos resultados.
+                - generic [ref=e319]:
+                  - generic [ref=e320]:
+                    - img "Transparência MerX" [ref=e321]
+                    - heading "Transparência" [level=5] [ref=e322]
+                  - paragraph [ref=e323]: Comunicação clara e processos bem definidos são a base da nossa confiança e credibilidade.
+            - link "Faça parte do nosso time" [ref=e325] [cursor=pointer]:
+              - /url: mailto:rh@merx.tech
+          - generic [ref=e328]:
+            - heading "DESCUBRA COMO A MERX PODE AJUDAR SEU NEGÓCIO" [level=3] [ref=e329]
+            - heading "Fale com nosso time de vendas" [level=2] [ref=e330]
+            - generic [ref=e332]:
+              - paragraph [ref=e333]: Nossa equipe está pronta para ajudá-lo a encontrar a melhor solução para o seu negócio.
+              - generic [ref=e334]:
+                - generic [ref=e335]:
+                  - img "Telefone MerX" [ref=e337]
+                  - generic [ref=e338]: (63) 9988-5601
+                - generic [ref=e339]:
+                  - img "Email MerX" [ref=e341]
+                  - generic [ref=e342]: comercial@merx.tech
+              - link "Peça uma demonstração" [ref=e344] [cursor=pointer]:
+                - /url: https://wa.me/5563999885601
+    - contentinfo [ref=e345]:
+      - generic [ref=e346]:
+        - generic [ref=e348]:
+          - generic [ref=e350]:
+            - img "Merx" [ref=e351]
+            - paragraph [ref=e353]: Conectando o Agro ao Mercado Financeiro e a Economia Verde.
+            - list [ref=e354]:
+              - listitem [ref=e355]:
+                - link "LinkedIn MerX LinkedIn" [ref=e356] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/merx-agri
+                  - img "LinkedIn MerX" [ref=e357]
+                  - text: LinkedIn
+              - listitem [ref=e358]:
+                - link "Podcast MerX Podcast" [ref=e359] [cursor=pointer]:
+                  - /url: https://open.spotify.com/show/6aVt29uKqL9tVlLNUX8kQl
+                  - img "Podcast MerX" [ref=e360]
+                  - text: Podcast
+          - generic [ref=e361]:
+            - heading "Para o seu negócio" [level=4] [ref=e362]
+            - list [ref=e364]:
+              - listitem [ref=e365]:
+                - link "Economia Verde" [ref=e366] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e367]:
+                - link "Expansão de Mercado" [ref=e368] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e369]:
+                - link "Gestão Agro" [ref=e370] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e371]:
+                - link "Trading - Sigma Green" [ref=e372] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e373]:
+                - link "Serviços Financeiros" [ref=e374] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=e375]:
+            - heading "Institucional" [level=4] [ref=e376]
+            - list [ref=e378]:
+              - listitem [ref=e379]:
+                - link "Trabalhe Conosco" [ref=e380] [cursor=pointer]:
+                  - /url: mailto:rh@merx.tech
+              - listitem [ref=e381]:
+                - link "Imprensa" [ref=e382] [cursor=pointer]:
+                  - /url: imprensa.html
+          - generic [ref=e383]:
+            - heading "Contato" [level=4] [ref=e384]
+            - list [ref=e386]:
+              - listitem [ref=e387]:
+                - link "(63) 9988-5601" [ref=e388] [cursor=pointer]:
+                  - /url: https://wa.me/5563999885601
+              - listitem [ref=e389]:
+                - link "comercial@merx.tech" [ref=e390] [cursor=pointer]:
+                  - /url: mailto:comercial@merx.tech
+              - listitem [ref=e391]:
+                - link "imprensa@merx.tech" [ref=e392] [cursor=pointer]:
+                  - /url: mailto:imprensa@merx.tech
+              - listitem [ref=e393]:
+                - link "rh@merx.tech" [ref=e394] [cursor=pointer]:
+                  - /url: mailto:rh@merx.tech
+        - paragraph [ref=e399]: Copyright © 2025 - Merx
+  - text: 
+```
