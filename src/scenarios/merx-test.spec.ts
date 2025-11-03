@@ -31,9 +31,10 @@ test('Homepage do Merx.tech carrega e contém elementos esperados', async ({ pag
   const footer = page.locator('footer');
   await expect(footer).toBeVisible();
 
-  // teste 8 - Verifica se o menu de navegação principal tem pelo menos 3 links
+  /// teste 8 - Verifica se o menu de navegação principal tem pelo menos 3 links
   const navLinks = page.locator('nav a');
-  await expect(navLinks).toHaveCountGreaterThan(2);
+  const linkCount = await navLinks.count();
+  expect(linkCount).toBeGreaterThanOrEqual(3);
 
   // teste 9 - Testa se há imagens carregadas corretamente
   const images = page.locator('img');
