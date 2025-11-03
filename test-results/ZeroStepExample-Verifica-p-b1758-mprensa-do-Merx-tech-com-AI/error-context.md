@@ -1,0 +1,115 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - navigation [ref=e7]:
+          - link "MerX" [ref=e8] [cursor=pointer]:
+            - /url: index.html
+            - img "MerX" [ref=e9]
+          - list [ref=e11]:
+            - listitem [ref=e12]:
+              - link "Home" [ref=e13] [cursor=pointer]:
+                - /url: index.html
+            - listitem [ref=e14]:
+              - link "Para o Seu Negócio" [ref=e15] [cursor=pointer]:
+                - /url: index.html
+              - text:     
+            - listitem [ref=e16]:
+              - link "Imprensa" [ref=e17] [cursor=pointer]:
+                - /url: imprensa.html
+            - listitem [ref=e18]:
+              - link "Podcast" [ref=e19] [cursor=pointer]:
+                - /url: https://open.spotify.com/show/6aVt29uKqL9tVlLNUX8kQl
+            - listitem [ref=e20]:
+              - link "Trabalhe Conosco" [ref=e21] [cursor=pointer]:
+                - /url: mailto:rh@merx.tech
+            - listitem [ref=e22]:
+              - link "Entre em Contato" [ref=e23] [cursor=pointer]:
+                - /url: https://wa.me/5563999885601
+      - main [ref=e24]:
+        - generic [ref=e29]:
+          - heading "Sala de Imprensa" [level=1] [ref=e30]
+          - list [ref=e32]:
+            - listitem [ref=e33]:
+              - link "Home" [ref=e34] [cursor=pointer]:
+                - /url: index.html
+            - listitem [ref=e35]: / Imprensa
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - heading "Sala de Imprensa MerX" [level=2] [ref=e40]
+            - paragraph [ref=e41]: Acesse as notícias e comunicados oficiais da MerX
+          - generic [ref=e42]:
+            - generic [ref=e45]:
+              - heading "Notícias" [level=3] [ref=e46]
+              - generic [ref=e47]: Acompanhe as principais notícias e reportagens sobre a MerX na mídia nacional e internacional.
+              - link "Ver Notícias" [ref=e48] [cursor=pointer]:
+                - /url: noticias.html
+            - generic [ref=e51]:
+              - heading "Comunicados à Imprensa" [level=3] [ref=e52]
+              - generic [ref=e53]: Confira os comunicados oficiais da MerX sobre novidades, parcerias e resultados.
+              - button "Ver Comunicados" [disabled] [ref=e54]
+    - contentinfo [ref=e55]:
+      - generic [ref=e56]:
+        - generic [ref=e58]:
+          - generic [ref=e60]:
+            - img "Merx" [ref=e61]
+            - paragraph [ref=e63]: Conectando o Agro ao Mercado Financeiro e a Economia Verde.
+            - list [ref=e64]:
+              - listitem [ref=e65]:
+                - link "LinkedIn LinkedIn" [ref=e66] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/merx-agri
+                  - img "LinkedIn" [ref=e67]
+                  - text: LinkedIn
+              - listitem [ref=e68]:
+                - link "Spotify Podcast" [ref=e69] [cursor=pointer]:
+                  - /url: https://open.spotify.com/show/6aVt29uKqL9tVlLNUX8kQl
+                  - img "Spotify" [ref=e70]
+                  - text: Podcast
+          - generic [ref=e71]:
+            - heading "Para o seu negócio" [level=4] [ref=e72]
+            - list [ref=e74]:
+              - listitem [ref=e75]:
+                - link "Economia Verde" [ref=e76] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e77]:
+                - link "Expansão de Mercado" [ref=e78] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e79]:
+                - link "Gestão Agro" [ref=e80] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e81]:
+                - link "Trading - Sigma Green" [ref=e82] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e83]:
+                - link "Serviços Financeiros" [ref=e84] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=e85]:
+            - heading "Institucional" [level=4] [ref=e86]
+            - list [ref=e88]:
+              - listitem [ref=e89]:
+                - link "Trabalhe Conosco" [ref=e90] [cursor=pointer]:
+                  - /url: mailto:rh@merx.tech
+              - listitem [ref=e91]:
+                - link "Imprensa" [ref=e92] [cursor=pointer]:
+                  - /url: imprensa.html
+          - generic [ref=e93]:
+            - heading "Contato" [level=4] [ref=e94]
+            - list [ref=e96]:
+              - listitem [ref=e97]:
+                - link "(63) 9988-5601" [ref=e98] [cursor=pointer]:
+                  - /url: https://wa.me/5563999885601
+              - listitem [ref=e99]:
+                - link "comercial@merx.tech" [ref=e100] [cursor=pointer]:
+                  - /url: mailto:comercial@merx.tech
+              - listitem [ref=e101]:
+                - link "imprensa@merx.tech" [ref=e102] [cursor=pointer]:
+                  - /url: mailto:imprensa@merx.tech
+              - listitem [ref=e103]:
+                - link "rh@merx.tech" [ref=e104] [cursor=pointer]:
+                  - /url: mailto:rh@merx.tech
+        - paragraph [ref=e109]: Copyright © 2025 - Merx
+  - text: 
+```
